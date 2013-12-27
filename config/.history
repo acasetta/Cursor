@@ -1,0 +1,15 @@
+ls
+ls -la
+d:
+cd Devel\PlayGroundSWAddIn\
+ls -la
+gl
+d:
+cd Tools\
+dir
+cd Cursor\
+dir
+git remote add origin https://github.com/acasetta/Cursor.git
+git remote set-url origin https://github.com/acasetta/Cursor.git
+git push -u origin master
+exit
