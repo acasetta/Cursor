@@ -13,3 +13,414 @@ git remote add origin https://github.com/acasetta/Cursor.git
 git remote set-url origin https://github.com/acasetta/Cursor.git
 git push -u origin master
 exit
+d:
+cd Tools\
+di
+cd Cursor\
+ls -la
+gl
+cd ..\..\Devel\PlayGroundSWAddIn\
+gl
+cd -
+cd-
+b
+cd ..\..\Tools\Cursor\
+ls
+git status
+clist gow
+cinst gow
+tail
+which tail
+exit
+which
+which tail
+which which
+which ls
+which cp
+cuninst gow
+clist -lo
+env | grep CURSOR
+cls
+ping www.libero.it
+ping www.playboy.com
+ping -t 192.168.27.254
+ping -t www.libero.it
+ping -t 8.8.8.8
+ping -t www.libero.it
+ping -t 8.8.8.8
+ping -t www.libero.it
+clist -lo
+clist notepad
+cinst notepadplusplus.install
+cls
+"c:\Program Files\Sysinternals\autoruns
+exit
+ipconfig /all
+cup -?
+cup
+ping -a 192.168.1.4
+ping www.libero.it
+ipconfig /all
+ping -a 192.168.1.243
+ping -a 192.168.1.244
+ping -a 192.168.1.242
+ping 192.168.69.5
+EXIT
+ping www.libero.it
+exit
+ping -a 192.168.1.243
+exit
+d:
+cd Sources\
+cd Clienti\
+cd Vicenza\
+cd Precetti\
+dir
+cd CopyClipBoardToDatagrid\
+dir
+cd trunk\
+dir
+svn status
+svn add Config\*
+svn status
+exit
+u:
+dir
+cscript.exe
+cscript.exe ListAllSolidWorksFiles.vbs
+cscript.exe ListAllSolidWorksFiles.vbs "u:\ARCHIVIO_DBCENT\"
+cscript.exe ListAllSolidWorksFiles.vbs "u:\ARCHIVIO_DBCENT\STORICO\002DGN\"
+cscript.exe ListAllSolidWorksFiles.vbs "u:\ARCHIVIO_DBCENT\STORICO\002DGN\" >> debug002DGN.TXT
+d:
+cd Devel\
+dir
+cd ..
+cd Sources\Clienti\Vicenza\Zobele\
+dir
+cd EPDMToERP\
+dir
+cd tu
+cd trunk\
+dir
+svn status 
+svn commit -ml
+ping nmne-db-01
+ipconfig /flushdns
+ping www.twitter.com
+ping www.github.com
+cd \
+cd "Program Files (x86)\
+dir
+tlbimp
+cd "Microsoft SDKs\
+dir
+cd Windows\
+dir
+cd v7.0A\
+dir
+cd bin\
+dir
+TlbImp.exe EdmInterface.dll /sysarray /out:Interop.EdmLib.dll /namespace:EdmLib
+TlbImp.exe "c:\Program Files\SolidWorks Enterprise PDM\EdmInterface.dll" /sysarray /out:D:\Temp\Interop.EdmLib.dll /namespace:EdmLib
+CD "NETFX 4.0 Tools\
+DIR
+TlbImp.exe "c:\Program Files\SolidWorks Enterprise PDM\EdmInterface.dll" /sysarray /out:D:\Temp\Interop.EdmLib.dll /namespace:EdmLib
+TlbImp.exe "c:\Program Files (x86)\SolidWorks Enterprise PDM\EdmInterface.dll" /sysarray /out:D:\Temp\Interop.EdmLib.dll /namespace:EdmLib
+cd ..
+TlbImp.exe "c:\Program Files (x86)\SolidWorks Enterprise PDM\EdmInterface.dll" /sysarray /out:D:\Temp\Interop.EdmLib.dll /namespace:EdmLib
+cls
+dir
+exit
+ipconfig /flushdns
+ping smtp.gmail.com
+telnet
+putty
+"c:\Program Files (x86)\SolidWorks Corp\eDrawings\eDrawingOfficeAutomator.exe" "T:\meccanico\_CODIFICATI\Produzione\Strutture\Staffe\060607000056.SLDPRT"
+eDrawingsOfficeAutomator.exe
+eModelViewer
+clist chocolateygui
+cinst chocolateygui
+cup
+clist -?
+net share
+clist -localonly
+powercfg /energy
+clist -lo
+cinst lessmsi
+d:
+cd \temp\Libraries\\
+dir
+lessmsi EPDMAddinSetup.msi
+lessmsi x EPDMAddinSetup.msi
+"C:\Program Files\SolidWorks Corp\eDrawings X64 Edition\EModelViewer.exe" "d:\Resources\NMLive\SW2013_What's_New_SP0\12 - Detailing\FLANGED HUB.SLDPRT"
+ipconfig /all
+ping winterfell
+ping -t www.libero.it
+ping www.libero.it
+ping winterfell
+ping www.libero.it
+ipconfig /all
+ping www.libero.it
+ping -t www.libero.it
+ping 192.168.27.254
+ping www.libero.it
+ping -t www.libero.it
+ping 89.97.140.140
+tracert 89.97.140.140
+ping 192.168.27.254
+ping -t 192.168.27.254
+ping 89.97.140.140
+tracert 89.97.140.140
+ipconfig /flushdns
+exit
+ps aux
+cd ..
+dir
+d:
+ cd dev
+c \
+cd \
+cd De
+cd Devel\
+dir
+exit
+d:
+cd ..\..
+cd Sources\
+cd Clienti\
+cd Vicenza\
+cd Friulintagli\
+dir
+cd EPDMPrint2PDFTaskAddin\
+svn status
+cd ..
+exit
+ping winterfell
+exit
+ping -t www.libero.it
+ping -t 192.168.27.254
+ping -t 192.168.27.2
+ping -t 192.168.27.254
+ping -t 192.168.69.254
+tracert 192.168.27.254
+ping -t 192.168.27.254
+ping -t 8.8.8.8
+ping -t 192.168.27.254
+ping -t 192.168.27.2
+ping -t 192.168.27.254
+ping -t 8.8.8.8
+ping -t 8.8.4.4.
+ping -t 8.8.4.4
+ping -t 192.168.27.254
+exit
+ipconfig /all
+ping 192.168.27.254
+ping 192.168.69.254
+ping 192.168.27.254
+ping -t 192.168.27.254
+tail -?
+tail --help
+cd "AppData\
+ls
+cd Local
+cd Logs\
+ls
+tail -f EPDMlogger.txt 
+tail -t EPDMlogger.txt 
+tail --help
+tail -f=EPDMlogger.txt 
+tail --follow=EPDMlogger.txt 
+tail -f EPDMlogger.txt 
+tail -tf EPDMlogger.txt 
+tail -f EPDMlogger.txt 
+which tail
+tail -F EPDMlogger.txt 
+cup
+clist gow
+choco up
+chocolatey /?
+clist --help
+clist /?
+clist -local
+cd \
+d:
+cd Devel\PlayGroundSWAddIn\
+ls -la
+d:
+cd Devel\PlayGroundSWAddIn\
+ls -la
+which tail
+cd \
+c:
+tail -F EPDMlogger.txt 
+cd AppData\Local\Logs\
+dir
+tail -F EPDMlogger.txt 
+tail -f EPDMlogger.txt 
+exit
+d:
+cd De
+cd Devel\
+cd PlayGroundSWAddIn\
+gl
+cd .. ..
+cd \
+cd Tools\Cursor\
+gl
+git status
+git commit -a bin\setenv.bat
+cup
+clist -local
+clist notepadplusplus
+cup notepadplusplus.install
+clist gow
+cup --?
+cup all
+cl
+cls
+ping -?
+exit
+ipconfig /all
+routes
+route
+route print
+exit
+ping 192.168.10.91
+mstsc /admin
+PING PC1134
+PING PC113
+PING SVMPCAD
+d:
+cd temp
+clist -local
+lessmsi
+exit
+d:
+cd Tools\
+cd Cursor\
+dir
+ls
+set
+lessmsi
+gl
+tail
+which tail
+exit
+clink --version
+clink /?
+clink /v
+clink -h
+cls
+cd
+e.
+ps aux
+ps
+top
+telnet
+putty
+exit
+ping NTSERVER1
+ping NTSERVER2
+cup all
+lessmsi
+clist -local
+choco version
+exit
+ps aux
+ls -la
+ping srv2008
+cd \
+cd temp
+dir
+test.bat 
+cls
+ping 172.20.3.100
+ping WIN-TF98L2AOPUG
+ping winterfell
+ping 192.168.69.222
+exit
+d:
+cd Temp\Interop\
+dir
+"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\TlbImp.exe" Edm.tlb /sysarray /out:Interop.EmdLib.dll /namespace:EdmLib
+"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\TlbImp.exe" Edm.tlb /sysarray /machine:x86 /out:Interop.EmdLib.dll /namespace:EdmLib
+"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\TlbImp.exe" Edm.tlb /sysarray /machine: x86 /out:Interop.EmdLib.dll /namespace:EdmLib
+"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\TlbImp.exe" Edm.tlb /sysarray /machine:x64 /out:Interop.EmdLib.dll /namespace:EdmLib
+"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\TlbImp.exe" Edm.tlb /sysarray /machine:x86 /out:Interop.EmdLib.dll /namespace:EdmLib
+tlbimp
+"c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\tlbimp.exe
+"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\TlbImp.exe" Edm.tlb /sysarray /machine:X86 /out:Interop.EmdLib.dll /namespace:EdmLib
+"c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\x64\tlbimp.exe
+"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\x64\bin\TlbImp.exe" Edm.tlb /sysarray /machine:X86 /out:Interop.EmdLib.dll /namespace:EdmLib
+"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\x64\TlbImp.exe" Edm.tlb /sysarray /machine:X86 /out:Interop.EmdLib.dll /namespace:EdmLib
+"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\TlbImp.exe" Edm.tlb /sysarray /out:Interop.EdmLib.dll /namespace:EdmLib
+"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\x64\TlbImp.exe" Edm.tlb /sysarray /machine:X64 /out:Interop.EmdLib.x64.dll /namespace:EdmLib
+CLS
+ping pc1143
+ping pc113
+d:
+cd Devel\OfficeTaskAddIn\
+dir
+svn status
+exit
+d:
+cd De
+cd Devel\
+dir
+cd OmnitechAddIn\
+dir
+svn status 
+d:
+cd Devel\
+dir
+cd OmnitechAddIn\
+dir
+svn status 
+exit
+d:
+cd Devel\
+dir
+exit
+d:
+cd Devel\
+dir
+d:
+cd \
+dir
+exit
+d:
+cd Devel\
+dir
+cd OmnitechAddIn\
+dir
+svn status
+svn add src\OmnitechAddIn\VaultHelper.cs 
+svn add src\OmnitechAddIn\Forms\ProgressStatus.*
+svn status
+svn commit -ml
+net share
+net use
+svn status
+svn commit -m "Aggiunta Progress Status W"
+svn commit -m "Aggiunta Progress Status window."
+cd ..
+exit
+ping -t winterfell
+d:
+cd Tools\
+dir
+cd Cursor\
+git status 
+git add bin\setenv.bat 
+git status 
+git commit -m "Changed path order"
+gl
+git status 
+git add config\ConEmu.xml
+git add icon\Cursor.ico 
+git status 
+git commit -m "Changed ConEmu Config, also cleaned up icon"
+git status 
+git push
+git status 
+exit
