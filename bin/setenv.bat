@@ -34,8 +34,8 @@
 
 :: Enhance Path
 @set rootDir=%CD%
-@set git_install_root=C:\Users\acasetta\AppData\Local\GitHub\PortableGit_fed20eba68b3e238e49a47cdfed0a45783d93651
-@set PATH=%git_install_root%\bin;%git_install_root%\mingw\bin;%git_install_root%\cmd;%PATH%
+@set git_install_root=C:\Users\acasetta\AppData\Local\GitHub\PortableGit_054f2e797ebafd44a30203088cd3d58663c627ef
+@set PATH=%PATH%;%git_install_root%\bin;%git_install_root%\mingw\bin;%git_install_root%\cmd
 
 :: Enhance Subversion from command line
 @set SVN_EDITOR="C:\Program Files (x86)\Notepad++\notepad++.exe"
