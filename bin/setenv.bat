@@ -25,7 +25,7 @@
 
 
 :: Run clink
-@%CURSOR_ROOT%\vendor\clink\clink_x%architecture%.exe inject --quiet --profile %CURSOR_ROOT%\config
+@"%CURSOR_ROOT%\vendor\clink\clink_x%architecture%.exe" inject --quiet --profile "%CURSOR_ROOT%\config"
 
 :: Prepare for msysgit
 :: I do not even know, copypasted from their .bat
@@ -34,8 +34,8 @@
 
 :: Enhance Path
 @set rootDir=%CD%
-@set git_install_root=C:\Users\acasetta\AppData\Local\GitHub\PortableGit_054f2e797ebafd44a30203088cd3d58663c627ef
-@set PATH=%PATH%;%git_install_root%\bin;%git_install_root%\mingw\bin;%git_install_root%\cmd
+@set git_install_root=C:\Program Files (x86)\Git
+@set PATH=%CURSOR_ROOT%\bin;%git_install_root%\bin;%git_install_root%\cmd;%CURSOR_ROOT%;%PATH%
 
 :: Enhance Subversion from command line
 @set SVN_EDITOR="C:\Program Files (x86)\Notepad++\notepad++.exe"
@@ -43,7 +43,9 @@
 :: Add aliases
 @doskey /macrofile=%CURSOR_ROOT%\config\aliases
 
-:: cd into users homedir
-:: @cd /d "%HOME%"
+:: cd into users homedir	
+:: Set home path
+@if not defined HOME set HOME=%USERPROFILE%
+@cd /d "%HOME%"
 
-:: @echo Welcome to cmder!
+@echo Welcome to Cursor!
