@@ -32,10 +32,25 @@
 @set PLINK_PROTOCOL=ssh
 @if not defined TERM set TERM=cygwin
 
+:: Check if msysgit is installed
+@if exist "%ProgramFiles%\Git" (
+    set "GIT_INSTALL_ROOT=%ProgramFiles%\Git"
+) else if exist "%ProgramFiles(x86)%\Git" (
+    set "GIT_INSTALL_ROOT=%ProgramFiles(x86)%\Git"
+) else if exist "%CMDER_ROOT%\vendor" (
+    set "GIT_INSTALL_ROOT=%CMDER_ROOT%\vendor\msysgit"
+)
+
+:: Add git to the path
+@if defined GIT_INSTALL_ROOT (
+    set "PATH=%GIT_INSTALL_ROOT%\bin;%GIT_INSTALL_ROOT%\share\vim\vim74;%GIT_INSTALL_ROOT%\usr\bin;%PATH%"
+    :: define SVN_SSH so we can use git svn with ssh svn repositories
+    if not defined SVN_SSH set "SVN_SSH=%GIT_INSTALL_ROOT:\=\\%\\bin\\ssh.exe"
+)
+
 :: Enhance Path
 @set rootDir=%CD%
-@set git_install_root=%PROGRAMFILES%\Git
-@set PATH=%CURSOR_ROOT%\bin;%CURSOR_ROOT%;%GIT_INSTALL_ROOT%\bin;%PATH%
+@set PATH=%CURSOR_ROOT%\bin;%PATH%;%CURSOR_ROOT%
 
 :: Enhance Subversion from command line
 @set SVN_EDITOR="C:\Program Files (x86)\Notepad++\notepad++.exe"
