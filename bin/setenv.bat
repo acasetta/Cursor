@@ -34,8 +34,8 @@
 
 :: Enhance Path
 @set rootDir=%CD%
-@set git_install_root=C:\Program Files (x86)\Git
-@set PATH=%CURSOR_ROOT%\bin;%git_install_root%\bin;%git_install_root%\cmd;%CURSOR_ROOT%;%PATH%
+@set git_install_root=%PROGRAMFILES%\Git
+@set PATH=%CURSOR_ROOT%\bin;%CURSOR_ROOT%;%GIT_INSTALL_ROOT%\bin;%PATH%
 
 :: Enhance Subversion from command line
 @set SVN_EDITOR="C:\Program Files (x86)\Notepad++\notepad++.exe"
