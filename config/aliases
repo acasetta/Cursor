@@ -1,5 +1,11 @@
 e.=explorer .
 gl=git log --oneline --all --graph --decorate  $*
-ls=ls --color $*
+ls=ls --show-control-chars -F --color $*
 pwd=cd
 clear=cls
+history=cat %CURSOR_ROOT%\config\.history
+unalias=alias /d $1
+yt-mp3=youtube-dl --extract-audio --audio-format mp3 $*
+reg-asm=%windir%\Microsoft.NET\Framework64\v4.0.30319\RegAsm.exe $* /codebase
+unreg-asm=%windir%\Microsoft.NET\Framework64\v4.0.30319\RegAsm.exe $* /unregister
+edit-hosts=notepad.exe %windir%\System32\drivers\etc\hosts
