@@ -23,9 +23,13 @@
     set architecture=64
 )
 
-
 :: Run clink
 @"%CURSOR_ROOT%\vendor\clink\clink_x%architecture%.exe" inject --quiet --profile "%CURSOR_ROOT%\config"
+
+:: Add Visual Studio Developer Environment
+@if exist "%VS150COMNTOOLS%" (
+    @call "%VS150COMNTOOLS%VsDevCmd.bat"
+)
 
 :: Prepare for msysgit
 :: I do not even know, copypasted from their .bat
@@ -58,9 +62,9 @@
 :: Add aliases
 @doskey /macrofile=%CURSOR_ROOT%\config\aliases
 
-:: cd into users homedir	
+:: cd into users homedir
 :: Set home path
 @if not defined HOME set HOME=%USERPROFILE%
 @cd /d "%HOME%"
-
+@cls
 @echo Welcome to Cursor!
