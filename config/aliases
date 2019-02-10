@@ -6,6 +6,9 @@ clear=cls
 history=cat %CURSOR_ROOT%\config\.history
 unalias=alias /d $1
 yt-mp3=youtube-dl --extract-audio --audio-format mp3 $*
+yt-mp4= youtube-dl -f bestvideo[ext=mp4]+bestaudio[ext=m4a] --merge-output-format mp4 $*
+reg-asm32=%windir%\Microsoft.NET\Framework\v4.0.30319\RegAsm.exe $* /codebase
+unreg-asm32=%windir%\Microsoft.NET\Framework\v4.0.30319\RegAsm.exe $* /unregister
 reg-asm=%windir%\Microsoft.NET\Framework64\v4.0.30319\RegAsm.exe $* /codebase
 unreg-asm=%windir%\Microsoft.NET\Framework64\v4.0.30319\RegAsm.exe $* /unregister
 edit-hosts=notepad.exe %windir%\System32\drivers\etc\hosts
